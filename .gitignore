@@ -88,3 +88,5 @@ sw.*
 
 # Vim swap files
 *.swp
+
+API_RESPONSE_EXAMPLE.json

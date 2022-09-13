@@ -1,5 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  ssr: false,
+
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -33,7 +35,12 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/image',
   ],
+
+  image: {
+    domains : ['https://upload.wikimedia.org']
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
