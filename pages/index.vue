@@ -4,6 +4,7 @@
     <p v-else-if="$fetchState.error">An error occurred :(</p>
     <div v-else>
       <h1>Nuxt Mountains</h1>
+      <p>Just Testing</p>
       <nuxt-img src="/goat.png" alt="goat" sizes="md:15vw" format="webp" />
       <ul>
         <li v-for="mountain of mountains" :key="mountain">
